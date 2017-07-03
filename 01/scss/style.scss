@@ -1,0 +1,13 @@
+@import "normalize";
+body {
+    background: url('../1-assets/background.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+header>img {
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+    max-width: 100vw;
+}
