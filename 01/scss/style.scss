@@ -11,3 +11,11 @@ header>img {
     opacity: 0.5;
     max-width: 100vw;
 }
+.register {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+}
+
