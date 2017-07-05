@@ -9,12 +9,13 @@
 </head>
 <body>
     <header>
-        <img src="1-assets/top-logo.png" alt="Header Logo">
+        <img class="logo__top"src="1-assets/top-logo.png" alt="Header Logo">
     </header>
     <main>
+        <h2>Register Form</h2>
         <form class="register">
             <label for="register__name">Username</label>
-            <input type="text" name="username" id="register__name" placeholder="Username">
+            <input type="text" name="username" id="register__name" placeholder="O | Username">
             <label for="register__password">Password</label>
             <input type="password" name="password" id="register__password" placeholder="Password">
             <label for="register__password_confirm">Confirm Password</label>
@@ -31,6 +32,7 @@
             </select>
             <input type="checkbox" id="register__checkbox">
             <label for="register__checkbox">I have read and accept the terms of use</label>
+            <button type="submit">Submit</button>
         </form>
     </main>
 </body>
