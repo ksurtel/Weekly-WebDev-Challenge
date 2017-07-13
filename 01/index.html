@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://use.fontawesome.com/ed4c6b979b.js"></script>
     <title>01</title>
 </head>
+
 <body>
     <header>
-        <img class="logo__top"src="1-assets/top-logo.png" alt="Header Logo">
+        <img class="logo__top" src="1-assets/top-logo.png" alt="Header Logo">
     </header>
     <main>
         <h2>Register Form</h2>
         <form class="register">
             <label for="register__name">Username</label>
-            <input type="text" name="username" id="register__name" placeholder="O | Username">
+            <div>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="username" id="register__name" placeholder="Username">
+            </div>
             <label for="register__password">Password</label>
-            <input type="password" name="password" id="register__password" placeholder="Password">
+            <div>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" name="password" id="register__password" placeholder="Password">
+            </div>
             <label for="register__password_confirm">Confirm Password</label>
-            <input type="password" name="password-confim" id="register__password_confirm" placeholder="Confirm Password">
+            <div>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" name="password-confim" id="register__password_confirm" placeholder="Confirm Password">
+            </div>
             <label for="register__email">Email</label>
-            <input type="email" name="email" id="register__email" placeholder="Email">
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="email" name="email" id="register__email" placeholder="Email">
+            </div>    
             <label for="register__location">Your Location</label>
-            <select name="location" id="register__location" placeholder="Your Location">
-                <option value="placeholder-location">Your Location</option>
-                <option value="poland">Poland</option>
-                <option value="germany">Germany</option>
-                <option value="france">France</option>
-                <option value="spain">Spain</option>
-            </select>
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <select name="location" id="register__location">
+                    <option value="" disabled selected>Your Location </option>
+                    <option value="poland">Poland</option>
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="spain">Spain</option>
+                </select>
+            </div>
             <input type="checkbox" id="register__checkbox">
             <label for="register__checkbox">I have read and accept the terms of use</label>
             <button type="submit">Submit</button>
         </form>
     </main>
 </body>
+
 </html>
